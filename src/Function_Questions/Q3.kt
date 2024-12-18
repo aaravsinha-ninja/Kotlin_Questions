@@ -12,8 +12,9 @@ fun largest_num(array: IntArray):Int{
 }
 fun main() {
     val sc = Scanner(System.`in`)
-    println("Enter a list of integer")
+    println("Enter the number of elements in the array")
     val n = sc.nextInt()
+    println("Enter a list of integer")
     val array = IntArray(n)
     for (i in array.indices)
         array[i]=sc.nextInt()
