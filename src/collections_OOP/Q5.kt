@@ -5,15 +5,15 @@ fun main() {
     val map : HashMap <Char,Int> = HashMap()
     val s = "This is a Sample String"
     for (i in s) {
-        if(map.containsKey(i)){
-            map.put(i,0)
+        if (i == ' ') continue
+        else if(!map.containsKey(i)){
+            map[i] = 1
         }
+
         else{
-            val temp:Int = map.get(i)!!
-            map.put(i,temp+1)
+                map[i] = map[i]!! + 1
         }
 
     }
-
-
+    println(map)
 }
