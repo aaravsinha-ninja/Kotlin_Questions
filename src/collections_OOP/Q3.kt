@@ -1,4 +1,4 @@
-package Collections_OOP
+package collections_OOP
 
 fun main() {
     val list = listOf(2, 8, 9, 9, 2, 2, 3, 2, 1, 9, 9, 0, 9, 8, 2, 3, 9, 7)

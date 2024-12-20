@@ -1,4 +1,4 @@
-package Collections_OOP
+package collections_OOP
 
 fun main() {
     val map : HashMap <String,String> = HashMap()
